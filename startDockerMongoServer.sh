@@ -1,0 +1,1 @@
+docker run --rm -d --name mongodb -p 27010:27010 -v jsonHolderVolume:/data/db mongo
